@@ -1,6 +1,6 @@
+import sys
 import requests
 from bs4 import BeautifulSoup
-import sys
 
 if (len(sys.argv) != 2):
     print "Please run the script using simple.py <site>"
